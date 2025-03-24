@@ -1,0 +1,16 @@
+Ultrasonic sensor has 4 pins:
+
+1. Vcc: connected to the 5V in Arduino
+
+2. TRIG (trigger): connected to PIN 10 of the Arduino
+
+#Trigger is used as Transmitter, this pin is used to transmit the sound from the Ultrasonic sensor.
+Trigger should be high. It is connected to the digital pin of the Arduino and used as output pin. 
+
+3. ECHO: connected to PIN 9 of Arduino.
+
+Echo is used as a Receiver, it receives the sound. 
+It is connected to the digital pin of the Arduino and used as input pin. 
+In this diagram, we have connected Echo to pin 9.
+
+4. GND (ground): connected to the GND of Arduino
