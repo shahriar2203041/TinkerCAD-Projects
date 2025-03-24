@@ -1,0 +1,7 @@
+1. HCSR04: 
+Is the Ultrasonic Sensor used. An ultrasonic sensor contains two circular structures: one is the #transmitter and the other is a #receiver. 
+The transmitter transmits the ultrasonic sound while the receiver receives the reflected signal. 
+2. Arduino Uno R3: 
+The #Arduino is a micro-controller board that is based on the ATmega328P, 
+it consists of digital and analog input/output pins that are interfaced with the ultrasonic sensor (used to send and receive data).
+the Arduino Uno IDE consists of a Serial Monitor that displays the output.
