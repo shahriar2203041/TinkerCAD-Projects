@@ -1,0 +1,16 @@
+An Ultrasonic Sensor measures the time of flight of an Ultrasonic wave and by measuring the time, it measures the distance of the object.
+
+When an object is placed in front of an ultrasonic sensor, ultrasonic waves are emitted on the object which is reflected towards the receiver.
+When the waves are transmitted and received, the total time taken for the Ultrasonic waves the hit the object and reflect back is calculated.
+Distance is calculated through time. 
+
+General formula for distance=  T x C 
+To calculate object distance: D = ½ T x C 
+D= distance of the object or obstacle
+C= speed of sound in air = 0.034 microseconds
+
+We divide the time of flight by 2 as we do not want to measure the total distance i.e., the distance taken for the pulse to hit the object and the distance is taken for it to reflect the receiver. We only want the calculate the proximity of the object.
+
+This gives the distance of the object from the sensor; Thus, we have to divide the time by 2.
+
+Distance (cm) = Speed of sound (cm/µs) × Time (µs) / 2
