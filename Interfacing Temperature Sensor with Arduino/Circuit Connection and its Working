@@ -1,0 +1,8 @@
+The connection between the Arduino board and LM35- Temperature sensor by using jumper wires involves simple steps:
+
+The supply voltage is the voltage by which the circuit operates, 
+and it needs to be connected to 5V on the Arduino board to power the temperature sensor LM35.
+
+The output voltage is the analog pin connected to the A0 pin of the Arduino board through which we receive data.
+
+Finally, connect the ground pin of the sensor to the GND terminal in the Arduino board to establish a common ground connection.
