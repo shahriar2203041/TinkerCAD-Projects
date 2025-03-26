@@ -1,0 +1,18 @@
+Circuit connection involves the following steps:
+
+In the keypad, there are 8 pins in total out of which 4 pins correspond to the Rows 
+(viz., R1, R2, R3, R4) and the other four correspond to the Columns (viz., C1, C2, C3, C4). 
+
+These 8 row and column pins of the keypad are connected from 0-7 PWM pins of the Arduino board respectively.
+
+DB 4-DB7 pins of the LCD are connected to 11-8 pins of the Arduino respectively.
+
+The 12th port of the Arduino is connected to Enable pin of the LCD and
+the 13th port of the Arduino is connected to Rs of the LCD.
+
+LED 1 of the LCD is connected to the ground pin of the Arduino through a 1-kilo-ohm resistor. 
+Further, the Vo and ground pins of the LCD are also connected to the ground pin of the Arduino.
+
+Vo and RW pins of the LCD are shorted (i.e., grounded)
+
+Vcc and the other LED of the LCD are short-circuited and connected to 5V pin of the Arduino
