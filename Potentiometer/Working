@@ -1,0 +1,7 @@
+A potentiometer is a variable resistor that is commonly used to adjust voltage levels in circuits. It has three terminals:
+
+VCC (Power Supply) – Connected to 5V (for Arduino).
+
+GND (Ground) – Connected to GND.
+
+Wiper (Middle Pin) – Outputs a variable voltage, connected to an analog input pin on the Arduino.
