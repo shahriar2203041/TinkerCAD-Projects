@@ -1,0 +1,23 @@
+Anodes of the #LEDs are connected to pin 2, pin3, and pin4 of the Arduino UNO  board respectively.
+
+Cathodes of the LEDs are connected to a 220-ohm resistor which is further connected to the ground of the breadboard.
+
+GND of the IR sensor ( middle terminal ) is connected to the ground of #Arduino UNO.
+
+The power ( third terminal) of the IR #Sensor is connected to the positive power supply ( +5V ) of the Arduino UNO board. 
+
+The output ( first terminal ) of the IR Sensor is connected to Pin12 of the Arduino board.
+
+GND pin of the Arduino board is connected to the GND of the breadboard.
+
+
+Once the connections are established and code is written in the code section of TinkerCAD,
+simulate the circuit design. Now, you are all set to control your LEDs using IR Remote.
+
+IR Remote emits lights in an infrared range that corresponds to specific commands
+( power ON / OFF ) while the IR Sensor acts as a receiver that detects and 
+decodes the infrared pulses of light then executes the command.  
+Blue LED can be controlled by clicking button 1 ( ON ) and 
+button 2 (OFF ) of the IR Remote. Orange LED can be controlled 
+with the help of Button 3 ( ON ) and Button 4 ( OFF ). Similarly, 
+you can control Green LED using Button 5 ( ON ) and Button 6 ( OFF ) respectively.
