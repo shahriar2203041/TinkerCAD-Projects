@@ -1,0 +1,5 @@
+﻿Name,Quantity,Component
+"U1",1," Arduino Uno R3"
+"RDIcharging",1,"220 Ω Resistor"
+"Rcharging",1,"10 kΩ Resistor"
+"C3",1,"5 uF, 5 uV Polarized Capacitor"
