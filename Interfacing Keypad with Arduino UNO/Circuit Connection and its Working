@@ -1,0 +1,9 @@
+Circuit connection involves the following steps :
+
+The circuit connection involves very simple steps. In the keypad, 
+there are 8 pins in total out of which 4 pins correspond to the Rows
+(viz., R1, R2, R3, R4) and the other four correspond to the Columns (viz., C1, C2, C3, C4). 
+
+The row pins are connected to 9, 8, 7, and 6 Digital pins of the Arduino UNO.
+
+The column pins are connected to 5, 4, 3, and 2 Digital pins of the Arduino UNO.
