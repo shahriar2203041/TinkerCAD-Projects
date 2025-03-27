@@ -1,0 +1,17 @@
+Connect Vcc of the ultrasonic sensor to 5V of the Arduino via a breadboard.
+
+Connect the ground of the ultrasonic sensor to the ground of the Arduino via a breadboard.
+
+Connect the trigger pin of the ultrasonic sensor to the D7 of the Arduino.
+
+Connect the echo pin of the ultrasonic sensor to D6 of the Arduino.
+
+Connect the ground of the servomotor to the ground rail on the breadboard.
+
+Connect the signal pin of the servomotor to the D5 of the Arduino.
+Working:
+The connections are made as explained in the "circuit connections" section. 
+The distance of the object from the sanitizer outlet is sensed by the ultrasonic sensor. 
+The distance value is processed by the code. 
+If the object is placed within the set range, 
+then the servomotor's shaft is made to rotate thus, dispensing the sanitizer. 
