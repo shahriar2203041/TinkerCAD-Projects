@@ -1,0 +1,14 @@
+The breadboard is powered using the Arduino.
+
+The positive terminal of the buzzer is connected to 13th pin of the Arduino, negative terminal is connected to the ground.
+
+Connect 8 pushbuttons to digital I/O pins of the Arduino from pin2 to pin9 respectively, they act as tone input pins.
+
+Pull up resistors are connected to the terminals of the pushbuttons and the remaining terminals are grounded.
+
+Working:
+After powering and uploading the code into Arduino, 
+once we execute the code, our setup will be now ready to test. 
+We can press the push buttons to get sound in different frequencies allotted to each of the buttons. 
+You can change the frequency of any button 
+if required (and it has to be done by specifying the required frequency in the code). 
