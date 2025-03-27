@@ -1,0 +1,5 @@
+The data pin of the Neopixel strip is connected to digital pin  6 of the Arduino board.
+
+The power pin of the Neopixel strip is connected to the 5v pin of the Arduino board.
+
+The ground pin of the Neopixel strip is connected to the ground pin of the Arduino board
