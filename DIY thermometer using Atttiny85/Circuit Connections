@@ -1,0 +1,33 @@
+Connect the power pin of the Attiny85 to the positive terminal of the battery.
+
+Connect the ground pin of the Attiny85 to the negative terminal of the battery. 
+
+Likewise, connect the power pin and the ground pin of the TMP36 temperature sensor to the positive and the negative terminal of the battery, respectively. 
+
+Connect the Vout of the TMP36 sensor to the PB2 pin of the Attiny85.
+
+Connect the anode of the LED to the PB0 pin of the Attiny85.
+
+Connect one of the resistor arms to the cathode of the LED. 
+
+Connect the other arm of the resistor to the ground of the Attiny85.
+
+Initialize the PB0 pin to zero and define the PB2 pin.
+
+Declare a variable- realDegree.
+
+In void setup(), set the pin mode for PB0 and initialize the realDegree value to 0.0
+
+In void loop(), the analog values from the sensor are assigned to "degree".
+It is divided by 1024 and is assigned to the "realdegree" variable. 
+
+This value will range from 0 to 1, hence it is multiplied by 5 to increase the range.
+
+To get the actual temperature the realdegree value is multiplied by 100.
+
+Convert the degree Celcius value to the Fahrenheit value. 
+
+Using the else-if condition,
+for different ranges of the temperature, 
+set the LED to blink fast, remain steady, 
+blink slowly or turn off by providing suitable delay.
